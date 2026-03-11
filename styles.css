@@ -1,3 +1,8 @@
 h1{
     background-color: gray;
+    width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    border-left:3px double white;
+    border-right:3px double white;
 }
