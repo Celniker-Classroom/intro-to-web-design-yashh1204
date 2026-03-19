@@ -10,41 +10,39 @@
 
     <div id="scroll-progress"></div>
 
+    <a href="#top-of-page" id="back-to-top" title="Go to top">↑</a>
+
     <div id="container" class="clearfix">
         
         <header>
-            <h1>Yashmit Bhatmuley</h1>
-            <h2 class="subtitle">Yash</h2>
-            
-            <nav class="top-nav">
+            <h1>Yashmit Bhatmuley</h1> <h2 class="subtitle">Yash</h2> <nav class="top-nav">
                 <a href="#who-am-i" class="nav-btn">Who Am I</a>
                 <a href="#interests" class="nav-btn">Interests</a>
                 <a href="#inspiration" class="nav-btn">Inspirations</a>
             </nav>
         </header>
 
-        <section id="info-bar" class="clearfix">
+        <div id="info-bar" class="clearfix">
             <div class="info-col">
                 <strong>📍 Location</strong>
                 <span>San Diego, CA</span>
             </div>
             <div class="info-col">
                 <strong>🏫 School</strong>
-                <span><a href="https://cc.sduhsd.net/" target="_blank">Canyon Crest</a></span>
+                <span><a href="https://cc.sduhsd.net/" target="_blank">Canyon Crest Academy</a></span>
             </div>
             <div class="info-col last-col">
                 <strong>🎸 Hobbies</strong>
-                <span>Robotics, Badminton, Mock Trial, Guitar, & Singing</span>
+                <span>Robotics, Badminton, Mocktrial, Guitar, & Singing.</span>
             </div>
-        </section>
+        </div>
 
         <main class="main-content">
             <section id="who-am-i" class="info-section">
-                <h3>Who am I</h3>
-                <div class="content-wrapper clearfix">
-                    <img src="images/robotics.png" alt="Robotics" class="float-left pop-img">
-                    <p>
-                        My Name is Yashmit Bhatmuley, and I am 16 years old. I was born in <a href="https://www.sandiego.org/" target="_blank">San Diego</a> and have lived here my whole life. When I was 2, I moved from North Park to Carmel Valley. For elementary school, I attended Ashley Falls; for middle school, Pacific Trails; and for high school, I am currently at Canyon Crest Academy. I enjoy staying busy with Mock Trial, Robotics <a href="https://www.sdftc.org/" target="_blank">(First Tech Challenge)</a>, and competitive badminton.
+                <h3>Who am I</h3> <div class="content-wrapper clearfix">
+                    <img src="images/robotics.png" alt="Robotics" id="pic1" class="pop-img">
+                    <p class="border-box">
+                        My Name is Yashmit Bhatmuley, and I am 16 years old. I was born in <a href="https://www.sandiego.org/" target="_blank">San Diego</a> and have lived here my whole life. For elementary school, I attended Ashley Falls; for middle school, Pacific Trails; and for high school, I am currently at Canyon Crest Academy. I enjoy staying busy with Mock Trial, Robotics <a href="https://www.sdftc.org/" target="_blank">(First Tech Challenge)</a>, and competitive badminton.
                     </p>
                 </div>
             </section>
@@ -52,8 +50,8 @@
             <section id="interests" class="info-section">
                 <h3>My Current Interests</h3>
                 <div class="content-wrapper clearfix">
-                    <img src="images/badminton.png" alt="Badminton" class="float-right pop-img">
-                    <p>
+                    <img src="images/badminton.png" alt="Badminton" id="pic2" class="pop-img">
+                    <p class="border-box">
                         I love trying new things and frequently switch between hobbies. Currently, I am deeply involved in singing and playing the guitar, often blending the two together. While I initially disliked badminton when my mom signed me up for classes, I grew to love it once I started playing with friends. It has become a fantastic way to stay active and socialize.
                     </p>
                 </div>
@@ -62,31 +60,17 @@
             <section id="inspiration" class="info-section">
                 <h3>People that Inspire Me</h3>
                 <div class="content-wrapper clearfix">
-                    <img src="images/mocktrial.png" alt="Mock Trial" class="float-left pop-img">
-                    <p>
-                        My parents are my biggest inspirations. My dad taught me that it is never too late to change paths. He transitioned from engineering <a href="https://www.qualcomm.com/" target="_blank">(at qualcomm)</a> to law at age 43 and found his true passion. My mom inspired me by turning her love for singing into a career. She proved that you can successfully monetize what you love. My father inspired and pushed me to enroll in <a href="https://sdmocktrial.org/" target="_blank">Mock Trial</a> where I found a passion of mine and future career choice.
+                    <img src="images/mocktrial.png" alt="Mock Trial" id="pic3" class="pop-img">
+                    <p class="border-box">
+                        My parents are my biggest inspirations. My dad taught me that it is never too late to change paths. He transitioned from engineering <a href="https://www.qualcomm.com/" target="_blank">(at Qualcomm)</a> to law at age 43 and found his true passion. My mom inspired me by turning her love for singing into a career. She proved that you can successfully monetize what you love. My father also pushed me to enroll in Mock Trial where I found a new passion.
                     </p>
                 </div>
             </section>
         </main>
 
         <footer>
-            <p>&copy; 2026 Yashmit Bhatmuley | Unit 7 Project | Create a Web Site </p>
+            <p>&copy; 2026 Yashmit Bhatmuley. All Rights Reserved.</p>
         </footer>
     </div>
-
-    <a href="#top-of-page" id="back-to-top" title="Go to top">↑</a>
-
-    <script>
-        const topBtn = document.getElementById("back-to-top");
-        window.onscroll = function() {
-            if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
-                topBtn.style.display = "block";
-            } else {
-                topBtn.style.display = "none";
-            }
-        };
-    </script>
-
 </body>
 </html>
